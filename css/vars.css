@@ -1,0 +1,22 @@
+:root {
+  /* for nav */
+  --clr1: #292929;
+  /* for footer */
+  --clr2: #f8f8f8;
+  /* for body */
+  --clr3: #ffff;
+  /* for text body */
+  --clr7: #606060;
+  /* for clicked button */
+  --clr6: #58c93a;
+  /* for h2 */
+  --clr4: #4f4e4e;
+  /* for un clicked button */
+  --clr5: #c2c2c2;
+
+  /* nextPrev btns */
+  --clr8: #818181;
+
+  /* on hover social icons */
+  --clr9: #516fad;
+}

@@ -1,0 +1,40 @@
+nav {
+  background-color: var(--clr1);
+  color: var(--clr3);
+}
+
+nav span:first-child {
+  color: var(--clr6);
+}
+
+nav .logo {
+  font-size: 2.5rem;
+}
+.nav-container.flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.flex {
+  justify-content: center;
+  align-items: center;
+}
+
+a.flex {
+  align-items: center;
+  justify-content: center;
+}
+
+ul a:hover {
+  cursor: pointer;
+  color: var(--clr6);
+}
+
+.active {
+  color: var(--clr6);
+}
+
+.menu-btn {
+  cursor: pointer;
+  font-size: 2rem;
+}

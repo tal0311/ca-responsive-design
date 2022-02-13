@@ -1,0 +1,67 @@
+/* layout */
+@import './typografhy.css';
+/* helper */
+@import './helper.css';
+/* vars */
+@import './vars.css';
+/* nav */
+@import './componenets/nav.css';
+/* footer */
+@import './componenets/footer.css';
+/* card */
+@import './componenets/card.css';
+/* nextPrev */
+@import './componenets/nextPrev.css';
+/* mq */
+@import './mq.css';
+/* screen */
+@import './componenets/screnns.css';
+/* modal */
+@import './componenets/modal.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: lato-regular;
+}
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: lato-bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr3);
+}
+
+img {
+  width: 100%;
+}
+
+input {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--clr3);
+}
+input:focus {
+  /* background-color: rgba(165, 165, 165, 0.292); */
+  color: var(--clr2);
+  outline: none;
+}
+
+input:focus::placeholder {
+  transition: 0.3s ease;
+  transform: translateY(-250%);
+}

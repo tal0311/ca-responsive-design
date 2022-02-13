@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mister blogger</title>
+    <!-- fonts awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/base.css" />
+
+  </head>
+  <body>
+
+    <div class="main-screen"></div>
+
+    <nav>
+      <div class="nav-container flex main-layout">
+        <div class="logo">Blogin<span>.</span></div>
+        <div class="menu-btn" onclick="openMenu()">&#9776;</div>
+        <ul class="clean-list flex close-menu ">
+          <a href="#" class="flex active">
+            journal
+          </a>
+          <a href="#" class="flex">
+            about
+          </a>
+          <a href="#" class="flex">
+            work
+          </a>
+          <a href="#" class="flex">
+            content
+          </a>
+        </ul>
+      </div>
+    </nav>
+    <main class="main-layout">
+      <article class="card flex">
+        <img src="img/001.jpg" alt="" />
+        <div class="content-container flex">
+          <h2>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
+          <p>
+           
+            harum impedit sunt eius autem possimus dolorem laudantium maxime, et
+            dolore repudiandae nobis aut. Explicabo modi error accusantium itaque
+            illo.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos enim
+            harum impedit sunt eius autem possimus dolorem laudantium maxime, et
+           
+          </p>
+          <button class="clean-btn arrow" onclick="openModal()">continue reading</button>
+                </article>
+        </div>
+      <article class="card flex">
+        <img src="img/002.jpg" alt="" />
+        <div class="content-container flex">
+          <h2>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
+          <p>
+           
+            harum impedit sunt eius autem possimus dolorem laudantium maxime, et
+            dolore repudiandae nobis aut. Explicabo modi error accusantium itaque
+            illo.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos enim
+            harum impedit sunt eius autem possimus dolorem laudantium maxime, et
+           
+          </p>
+          <button class="clean-btn arrow" onclick="openModal()">continue reading</button>
+        </div>
+      </article>
+      <article class="card flex">
+        <img src="img/003.jpg" alt="" />
+        <div class="content-container flex">
+          <h2>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
+          <p>
+           
+            harum impedit sunt eius autem possimus dolorem laudantium maxime, et
+            dolore repudiandae nobis aut. Explicabo modi error accusantium itaque
+            illo.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos enim
+            harum impedit sunt eius autem possimus dolorem laudantium maxime, et
+           
+          </p>
+          <button class="clean-btn arrow"onclick="openModal()">continue reading 
+        </div>
+      </article>
+
+    </main>
+    <div class="next-prev main-layout flex">
+      <button class="clean-btn" ><span>&#8592;</span> Previous</button>
+      <button class="clean-btn">Next <span>&#8594;</span></button>
+      
+    </div>
+
+    <footer class="">
+      <div class="footer-content ">
+        <div class="logo">Blogin</div>
+        <small>&#169; 2014 Blogin.com - All Rights Reserved coffee right</small>
+      
+         <i class="fa-brands fa-facebook-square"></i>
+         <i class="fa-brands fa-twitter-square"></i>
+         <i class="fa-brands fa-behance-square"></i>
+         <i class="fa-solid fa-globe"></i>
+      
+      </div>
+    </footer>
+
+    <div class="modal flex">
+      <h3>Join us to get access to latest stories</h3>
+      <input type="email" placeholder="email">
+      <button class="clean-btn" type="submit" onclick="onSubmitEmail()">Submit</button>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

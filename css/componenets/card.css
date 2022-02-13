@@ -1,0 +1,66 @@
+.card {
+  padding-bottom: 4.5rem;
+}
+
+.card:first-child {
+  padding-top: 4.55rem;
+}
+.content-container.flex {
+  flex-basis: 50%;
+  gap: 5px;
+  align-items: start;
+  flex-direction: column;
+}
+
+.card.flex {
+  gap: 40px;
+}
+
+.content-container h2 {
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+
+.card.flex img {
+  flex-basis: 50%;
+  object-fit: contain;
+  object-fit: cover;
+}
+
+.card.flex p:last-of-type {
+  flex-grow: 1;
+}
+
+/* define avery thing in em */
+.card button.clean-btn {
+  transition: 0.2s ease;
+  position: relative;
+  border: 2px solid var(--clr5);
+  color: var(--clr5);
+  border-radius: 2em;
+  font-size: 1rem;
+  padding: 0.6875em 1.5em;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.card button.clean-btn.arrow:hover {
+  transition: 0.2s ease-in-out;
+  border-color: var(--clr6);
+  color: var(--clr6);
+  padding-inline-end: 3em;
+  transform-origin: left;
+}
+
+.clean-btn.arrow:hover::after {
+  transition: 0.2s ease-in-out;
+  position: absolute;
+  right: 0.75em;
+  content: '=>';
+}
+
+main.main-layout {
+  border-left: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}

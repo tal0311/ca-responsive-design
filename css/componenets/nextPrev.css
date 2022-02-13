@@ -1,0 +1,17 @@
+.next-prev.flex {
+  justify-content: space-between;
+  border-top: 1px solid #efefef;
+}
+
+.next-prev.flex button {
+  padding: 2rem;
+  text-transform: uppercase;
+  color: var(--clr8);
+  padding-top: 1.625rem;
+}
+
+.next-prev.main-layout {
+  border-left: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+  margin-top: 0;
+}

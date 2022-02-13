@@ -1,0 +1,26 @@
+.modal.flex {
+  flex-direction: column;
+}
+
+.modal.flex > *:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
+.modal.flex h4 {
+  flex: 1;
+}
+
+.open-modal {
+  transition: 0.3s ease;
+  opacity: 1;
+}
+
+.modal button {
+  border: 2px solid var(--clr5);
+  color: var(--clr5);
+  border-radius: 2em;
+  font-size: 1rem;
+  padding: 0.6875em 1.5em;
+  text-transform: capitalize;
+  cursor: pointer;
+}

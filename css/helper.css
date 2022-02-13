@@ -1,0 +1,18 @@
+.clean-list {
+  margin: 0;
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.clean-list a {
+  text-decoration: none;
+}
+
+.clean-btn {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}

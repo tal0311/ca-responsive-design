@@ -1,0 +1,41 @@
+footer {
+  background-color: var(--clr2);
+  text-align: center;
+}
+
+footer small {
+  display: block;
+}
+
+footer .logo {
+  font-size: 2.5rem;
+}
+
+.footer-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.footer-content > *:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
+
+.footer-content i {
+  transition: 0.2s ease;
+  font-size: 2.5rem;
+  color: var(--clr8);
+}
+
+i:hover {
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: var(--clr9);
+}
+
+.footer-content i:not(:last-child) {
+  margin-inline-end: 1.875rem;
+}
+
+.footer-content small {
+  color: var(--clr5);
+}

@@ -1,0 +1,22 @@
+.main-screen {
+  position: fixed;
+  inset: 3rem 0 0 0;
+  background-color: rgba(0, 0, 0, 0.673);
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.open-menu .main-screen {
+  z-index: 1;
+  pointer-events: none;
+  transition: 0.6s ease;
+  opacity: 1;
+}
+
+body.modal-shown .main-screen {
+  inset: 0 0 0 0;
+  z-index: 0;
+  pointer-events: none;
+  transition: 0.6s ease;
+  opacity: 1;
+}
